@@ -1,7 +1,7 @@
-.shop-container{
+.shop-review-container{
     display: flex;
 }
-.product-container{
+.product-review-container{
     width: 70%;
     margin-left: 20px;
     margin-right: 5px;
