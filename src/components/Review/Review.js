@@ -19,7 +19,7 @@ const Review = () => {
         setOrderPlaced(true);
         processOrder(); //database theke use korlam ai function local storage theke  data cleankore
     }
-    //review component ar vetor elements gular remove button a click korle seta bad hoye jabe 
+    //review component ar vetor elements gular remove button a click korle seta bad hoye jabe and local storage thekeo bad
     const removeProduct = (productKey) => {
         //console.log(removeProduct);
         const newCart = cart.filter(pd => pd.key !== productKey);
